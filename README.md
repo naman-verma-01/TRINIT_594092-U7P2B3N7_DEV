@@ -1,5 +1,6 @@
 # Chrome Extension Demo with Analytics Tab
-[Analytics Tab](https://nit-trichy-hackathon.vercel.app/)
+
+Link :- [Deployed Analytics Tab](https://nit-trichy-hackathon.vercel.app/)
 
 ![image](./1.png)
 ![image](./2.png)
