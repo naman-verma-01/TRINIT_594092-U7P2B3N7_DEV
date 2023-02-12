@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card_sujal{
+  border: 2px solid black;
+    margin: 27px;
+    border-radius: 11px;
+}
+
+.cardlistcommon{
+  border-bottom: 2px solid black;
+}
+
+.card-header{
+  border-bottom: 2px solid;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card_body_sujal{
+  display: flex;
+    justify-content: space-evenly;
+    margin: 2% 0%;
+}
+
+.card_subsujal{
+  border: 2px solid black;
+  margin: 7px;
+  border-radius: 7px;
+}
+
+.sujal{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  /* background-color: green; */
+}
+
+.mainheader h1{
+  font-size: 36px;
+    margin-top: 50px;
+}
+
+.card_sujal{
+  /* margin-bottom: 5%; */
+  background: #1e293b;
+  color: white;
+  width: 50%;
+  margin: 2% auto;
+}
+
+.card_subsujal{
+  background: #424251;
+  color: white;
+}
+
+.sujalsahu{
+  background: #1e293b;
+  color: white;
+}
+
+.naman{
+  color:black;
+}
+
+.subcardtop{
+  background: #1e293b;
+  color: white;
+  padding: 15px;
+  margin: 0% 4.9%;
+  border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+  .card_sujal {
+    width: 90%;
+    margin: 20px auto;
+  }
+  
+  .card_body_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h4 {
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .card_sujal {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+  h4 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card_sujal {
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+}

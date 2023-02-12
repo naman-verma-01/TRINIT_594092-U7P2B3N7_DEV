@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Green Buddy",
+  "description": "An extension to monitor carbon emission of a user caused due to internet surfing.",
+  "version": "1.0",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title":"Carbonator",
+    "default_icon":"amogus.png"
+  }, 
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ]
+}

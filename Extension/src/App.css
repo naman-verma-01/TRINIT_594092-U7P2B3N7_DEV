@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body{
+  color: #8860D0;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.popup{
+  margin: 5px;
+  width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: rgba(#C1C8E4, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.popup div{
+  
+}
+
+input{
+  margin: 5px;
+  border: none;
+  background-color: #dbcafb;
+  border-radius: 4px;
+  height: 25px;
+  
+}
